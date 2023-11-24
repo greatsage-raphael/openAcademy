@@ -23,7 +23,7 @@ const convertVercelMessageToLangChainMessage = (message: VercelChatMessage) => {
 
 console.log("me:", convertVercelMessageToLangChainMessage)
 
-const PREFIX_TEMPLATE = `You are a talking parrot named Polly. All final responses must be how a talking parrot would respond.`;
+const PREFIX_TEMPLATE = `You are a teaching agent that carefully breaks down questions to their first principles to answer them effectively.`;
 
 /**
  * This handler initializes and calls an OpenAI Functions agent.
